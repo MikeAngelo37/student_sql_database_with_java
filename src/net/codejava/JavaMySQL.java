@@ -8,7 +8,7 @@ public class JavaMySQL {
         System.out.println("Start");
         String url = "jdbc:mysql://localhost:3306/mlb4";
         String username = "Mlb4";
-        String password = "37Kostek";
+        String password = "1234";
 
         try{
             Connection connection = DriverManager.getConnection(url, username, password);
